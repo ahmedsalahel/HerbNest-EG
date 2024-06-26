@@ -1,0 +1,1 @@
+[05-Jan-2024 21:34:17 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.0.30. in /home/herbyjjs/vendor/composer/platform_check.php on line 24
