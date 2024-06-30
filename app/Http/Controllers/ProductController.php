@@ -144,8 +144,8 @@ class ProductController extends Controller
      */
     public function destroy(Product $product)
     {
-        $$product->clearMediaCollection('main_image');
-        $$product->clearMediaCollection('multi_image');
+        $product->clearMediaCollection('main_image');
+        $product->clearMediaCollection('multi_image');
         $product->delete();
         return redirect()->route('dashboard.products.index');
     }
